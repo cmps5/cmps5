@@ -2,8 +2,11 @@ name: Generate Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # todos os dias
+    - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -19,8 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           USERNAME: cmps5
-          THEME: vue
-          OUTPUT_DIR: profile-summary-cards
+          AUTO_PUSH: false
 
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v5
