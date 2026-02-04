@@ -2,7 +2,7 @@ Hey, I'm Carlos!
 
 I'm a Network and Information Systems Engineering student, passionate about Numbers, Sport, Associativism, Volunteering and Graphic Design. I love solving problems.
 
-Right now, I'm working as a Quality Assurance Analyst at Natixis in Portugal. And I have 2+ years of hands-on experience in Oracle systems (RMS, SIOCS, OSIO, SIH).
+Right now, I'm working as a Quality Assurance Analyst. And I have 4+ years of experience in software testing and development within retail and financial sectors.
 
 Also, I've been involved in several sports projects, as an athlete, coach, manager, referee and volunteer.
 
